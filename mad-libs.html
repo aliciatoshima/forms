@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>A fantastical adventure</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in the blanks to write your story!</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="title">Title</label>
+            <input id="title" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="firstname">First Name</label>
+            <input id="firstname" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="lastname">Last name</label>
+            <input id="lastname" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="address1">Street Address</label>
+            <input id="address1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="address2">Street Address Line 2</label>
+            <input id="address2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="emailaddress">Email Address</label>
+            <input id="emailaddress" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Numnber</label>
+            <input id="phone" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="color">Favorite Color</label>
+            <input id="color" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn btn-outline-dark">Show me my letter</button>
+        </form>
+      </div>
+
+      <div id="story">
+
+        <h2><span class="title"></span> <span class="firstname"></span> <span class="lastname"></span> </h2>
+        <h2><span class="address1"></span></h2>
+        <h2><span class="address2"></span></h2>
+        <h2><span class="phone"></span></h2>
+        <h2><span class="email"></span></h2>
+
+        <h1>Dear <span class="title"></span> <span class="firstname"></span> <span class="lastname"></span>,</h1>
+
+        <p>Hello, thank you for submitting our form. We hear your fave color is <span class="color"></span>. </p>
+
+      </div>
+    </div>
+  </body>
+</html>
